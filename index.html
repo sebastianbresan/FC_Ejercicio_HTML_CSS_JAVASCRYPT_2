@@ -1,68 +1,165 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet"  href="styles.css">
-
-    <title>FC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+       <title>FC</title>
 </head>
 <body>
-    <div class="login">
-        <div class="text">
-        <form>
-          <div class="frame1223">
-            <p class="alumnos">OpenBootcamp <strong> <span class="textoAlumnos"> | Alumnos</span></strong></p>
-            <div class="frame1254">
-              <div class="frame943">
-                <div class="frame1433">
-                  <p class="email">Email</p>
-                  <input class="frame1328"
-                      placeholder="Introduce tu correo"
-                      name="email"
-                    >
-                  </input>
+    <header>
+        <div class="frame22">
+            <div class="frame1217">
+                <div class="frame1182">
+                    <h2>OpenBootcamp <strong> <span class="textoAlumnos"> | Alumnos</span></strong></h2>
                 </div>
-                <div class="frame1439">
-                  <p class="contraseña">Contraseña</p>
-                  <input class="frame1328"
-                      placeholder="Introduce tu contraseña"
-                      name="password"
-                    ></input>
-                </div>
-              </div>
-  
-              <div class="frame1217">
-                <div class="frame1414">
-                  <input
-                    type="checkbox"
-                    class="icon"
-                    value="recuerdame"
-                  ></input>
-                  <p class="recuerdame">Recuérdame</p>
-                </div>
-                <a href={title} class="title">
-                  He olvidado mi contraseña
-                </a>
-              </div>
-              <button class="button" onClick={saveStudent}>
-                <p class="iniciarsesion">Iniciar Sesión</p>
-              </button>
             </div>
-          </div>
-          <div class="frame1255">
-            <p class="copyright">
-              Copyright © 2021 Open Bootcamp SL, Imagina Group
-            </p>
-            <p class="derechos">Todos los derechos reservados</p>
-            <a class="politica" href={politica}>
-              Política de privacidad
-            </a>
-          </div>
-          </form>
+            <div class="frame1216">
+                <div class="frame1893">
+                    <div class="frame1200">
+                      <div class="frame1283"> <p class="na">NA</p>
+                      </div>
+                      <p class="username">Username</p>
+                    </div>
+                    <select name="" id="" class="icon"></select>
+                </div>
+            </div>
         </div>
-        <div class="java"></div>
-      </div>
+    </header>
+    <div class="frame1998">
+       <div class="frame2000">
+           <div class="frame1673">
+               <div class="frame1964">
+                   <div class="frame2002">
+                        <p class="alumnos">Alumnos</p>
+                        <input type="text" class="input" placeholder="Buscar por Nombre, Email, o Palabra Clave">
+                        </div>
+                        <button class="button">+ Añadir alumno</button>
+                </div>
+                <div class="frame1076">
+                    <table class="frame1723" >
+                        <th>
+                            <tr class="frame758">
+                                <td class="thNombre">NOMBRE ↑↓</td>
+                                <td class="thCiudad">CIUDAD ↑↓</td>
+                                <td class="thPais">PAIS ↑↓</td>
+                                <td class="thTelefono">TELEFONO</td>
+                                <td class="thCorreo">CORREO ELECTRONICO ↑↓</td>
+                                <td class="thEtiquetas">ETIQUETAS ↑↓</td>
+                            </tr>
+                        </th>
+                        <tbody class="frame1077">
+                            <tr class="tr">
+                                <td class="tdNombre">Juan Pedro Garcia</td>
+                                <td class="tdCiudad">Cordoba</td>
+                                <td class="tdPais">España</td>
+                                <td class="tdTelefono">+34 123 85 25 46</td>
+                                <td class="tdCorreo">jcordoba@gmail.com</td>
+                                <td class="tdEtiquetas"> <span class="etiqueta">ANGULAR</span>  <span class="etiqueta">HTML CSS</span>  <span class="etiqueta">+2</span></td>
+                            </tr>
+                            <tr class="tr">
+                                <td class="tdNombre">Alvaro Sanchez Monteagudo</td>
+                                <td class="tdCiudad">Valencia</td>
+                                <td class="tdPais">España</td>
+                                <td class="tdTelefono">+34 657 85 25 46</td>
+                                <td class="tdCorreo">smonteagudo@gmail.com</td>
+                                <td class="tdEtiquetas"> <span class="etiqueta">PHYTON</span>  <span class="etiqueta">GITHUB</span>  <span class="etiqueta">TYPESCRYPT</span></td>
+                            </tr>
+                            <tr class="tr">
+                                <td class="tdNombre">Adrian Martin Salcedo</td>
+                                <td class="tdCiudad">Zaragoza</td>
+                                <td class="tdPais">España</td>
+                                <td class="tdTelefono">+34 345 85 25 46</td>
+                                <td class="tdCorreo">zaragozaa@gmail.com</td>
+                                <td class="tdEtiquetas"> <span class="etiqueta">ANGULAR</span>  <span class="etiqueta">REACT</span>  <span class="etiqueta">SPRING</span></td>
+                            </tr>
+                            <tr class="tr">
+                                <td class="tdNombre">Fabian Rodriguez Polo</td>
+                                <td class="tdCiudad">San Sebastian</td>
+                                <td class="tdPais">España</td>
+                                <td class="tdTelefono">+34 123 33 25 46</td>
+                                <td class="tdCorreo">sansebastian@gmail.com</td>
+                                <td class="tdEtiquetas"> <span class="etiqueta">ANGULAR</span>  <span class="etiqueta">JAVA</span>  <span class="etiqueta">JUNIT</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+               </div>
+               <div class="frame1422">
+                    <div class="frame2001">
+                        <p class="filtros">Filtros de búsqueda</p>
+                        <img src="../images/borrar.png" alt="trash" class="borrar" >
+                    </div>
+                   <div class="frame1999">
+                        <div class="frame1380">
+                            <div class="frame1433">
+                                <p class="etiquetas">Etiquetas</p>
+                                <select class="frame1328">
+                                    <option>Escribe para buscar</option>
+                                </select>
+                            </div>
+                            <div class="frame1430">
+                                <div class="frame1401">
+                                    <div class="tagReact">
+                                        <p class="react">REACT</p>
+                                        <img src="images\cruz.png" alt="" class="cruz">
+                                    </div>
+                                    <div class="tagHtml">
+                                        <p class="html">HTML&CSS</p>
+                                        <img src="images\cruz.png" alt="" class="cruz">
+                                    </div>
+                                </div>
+                                <div class="frame1403">
+                                    <div class="tagAngular">
+                                        <p class="angular">ANGULAR</p>
+                                        <img src="images\cruz.png" alt="" class="cruz">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frame14332">
+                            <p class="pais">País</p>
+                            <select class="frame13282">
+                                <option value="España">España</option>
+                            </select>
+                        </div>
+                        <div class="frame1434">
+                            <p class="ciudad">Ciudad</p>
+                            <select class="frame13283">
+                                <option value="Ciudad">Valencia</option>
+                            </select>
+                        </div>
+                        <div class="frame1422">
+                            <p class="presencialDistancia">Presencial / a distancia</p>
+                            <div class="frame1421">
+                                <div class="frame1414">
+                                    <input type="checkbox" class="checkPresencial">
+                                    <p class="presencial">Presencial</p>
+                                </div>
+                                <div class="frame1415">
+                                    <input type="checkbox" class="checkRemoto">
+                                    <p class="remoto">En remoto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frame1435">
+                            <p class="posibilidadTraslado">Posibilidad traslado</p>
+                            <div class="frame14212">
+                                <div class="frame14142">
+                                    <input type="checkbox" class="checkSi">
+                                    <p class="si">Si</p>
+                                </div>
+                                <div class="frame14152">
+                                    <input type="checkbox" class="checkNo">
+                                    <p class="no">No</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
 </body>
 </html>
